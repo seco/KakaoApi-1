@@ -1,0 +1,24 @@
+{
+    "name": "tyleteam/kakao-api",
+    "description": "kakao api for laravel 5",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0",
+        "php": ">=5.5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tyleteam",
+            "email": "contact@tyle.io"
+        }
+    ],   
+    "autoload": {
+        "psr-4": {
+            "tyleteam\\KakaoApi\\": "src"
+        }
+    },
+    "branch-alias": {
+        "dev-master": "1.x-dev"
+    }
+
+}
